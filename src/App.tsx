@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css';
 
+import GlobalStyle from './styles/global';
 const App: React.FC = () => (
-  <h1> OI</h1>
+  <>
+    <h1> OI</h1>
+    <GlobalStyle />
+  </>
 );
 
 export default App;
